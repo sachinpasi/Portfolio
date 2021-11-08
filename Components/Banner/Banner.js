@@ -7,7 +7,19 @@ const Banner = ({ isLoading }) => {
         isLoading ? "opacity-0" : "opacity-100"
       } transition-opacity duration-1000 delay-300 `}
     >
-      <div className={`bg`}></div>
+      <div className={`bg`}>
+        <div>
+          <video
+            className="w-full h-screen  object-cover"
+            autoPlay={true}
+            loop
+            controls={false}
+            muted
+          >
+            <source src="/assets/human.mp4" />
+          </video>
+        </div>
+      </div>
 
       <div className="pt-40vh w-90vw mx-auto">
         <div className="w-3/5">

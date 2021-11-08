@@ -37,14 +37,15 @@
 
 .bg {
   position: absolute;
-  left: 60%;
+  left: 63%;
   top: 0;
   right: 0;
   bottom: 0;
-  max-width: 40%;
-  background-image: url(/assets/texture.png),
+  max-width: 37%;
+  /* background-image: url(/assets/texture.png),
     linear-gradient(180deg, #1a4172, #112e62);
-  background-position: 0 0, 0 0;
+  background-position: 0 0, 0 0; */
+  /* background-color: #f2e9fe; */
   background-size: contain, auto;
   background-attachment: scroll, scroll;
   /* background-blend-mode: multiply; */
