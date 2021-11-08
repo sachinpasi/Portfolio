@@ -3,14 +3,14 @@ import React from "react";
 const Banner = ({ isLoading }) => {
   return (
     <div
-      className={`w-full h-screen ${
+      className={`w-full h-screen  ${
         isLoading ? "opacity-0" : "opacity-100"
       } transition-opacity duration-1000 delay-300 `}
     >
       <div className={`bg`}>
-        <div>
+        <div className="w-full h-full flex items-center">
           <video
-            className="w-full h-screen  object-cover"
+            className="w-full h-95vh rounded-full  object-cover "
             autoPlay={true}
             loop
             controls={false}
@@ -38,10 +38,10 @@ const Banner = ({ isLoading }) => {
 
           <div className="mt-12">
             <a
-              href="/"
+              href="/#projects"
               className="py-5 px-12 bg-blue shadow-lg text-white font-semibold uppercase text-sm tracking-wider"
             >
-              SEE MY WORK
+              SEE MY Projects
             </a>
           </div>
         </div>

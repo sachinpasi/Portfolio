@@ -19,6 +19,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "URW DIN";
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -41,11 +42,11 @@
   top: 0;
   right: 0;
   bottom: 0;
-  max-width: 37%;
+  max-width: 31%;
   /* background-image: url(/assets/texture.png),
     linear-gradient(180deg, #1a4172, #112e62);
   background-position: 0 0, 0 0; */
-  /* background-color: #f2e9fe; */
+
   background-size: contain, auto;
   background-attachment: scroll, scroll;
   /* background-blend-mode: multiply; */

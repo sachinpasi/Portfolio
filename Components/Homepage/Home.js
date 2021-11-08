@@ -4,7 +4,9 @@ import { useState } from "react";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import Header from "../Header/Header";
+import Projects from "../Projects/Projects";
 import Startup from "../Startup/Startup";
+import Tech from "../Tech/Tech";
 
 const Home = () => {
   const [isLoading, setisLoading] = useState(true);
@@ -20,7 +22,9 @@ const Home = () => {
       <Startup isLoading={isLoading} />
       <Header isLoading={isLoading} />
       <Banner isLoading={isLoading} />
-      <About />
+      <Tech isLoading={isLoading} />
+      <About isLoading={isLoading} />
+      <Projects />
     </>
   );
 };
